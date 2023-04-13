@@ -89,7 +89,8 @@
 }
 
 .modal-container {
-  background-color: beige;
+  background-color: #a27b5c;
+  color: white;
   display: flex;
   flex-direction: column;
   gap: 1em;
@@ -104,8 +105,15 @@
 .modal-container button {
   height: 32px;
   font-size: 16px;
+  border-radius: 10px;
 }
 
 .add-book-btn:hover {
   cursor: pointer;
+  color: #a27b5c;
+}
+
+.cancel-btn:hover {
+  cursor: pointer;
+  color: #a27b5c;
 }
