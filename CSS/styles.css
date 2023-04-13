@@ -8,6 +8,7 @@
 #root {
   position: relative;
   height: 100vh;
+  background-color: #3f4e4f;
 }
 
 .header {
@@ -15,6 +16,8 @@
   flex-direction: column;
   align-items: center;
   padding: 1em;
+  color: white;
+  background-image: url(/images/books.jpg);
 }
 
 .main {
@@ -27,9 +30,12 @@
 .book {
   display: flex;
   flex-direction: column;
-  background-color: burlywood;
+  background-color: #a27b5c;
   padding: 1em;
   height: 250px;
+  color: #dcd7c9;
+  border-radius: 0 30px 0 0;
+  border-bottom-style: groove;
 }
 
 .book div {
